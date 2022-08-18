@@ -1,5 +1,5 @@
 <template>
-    <div><img src="@/assets/img.jpg" alt=""></div>
+    <div><img src="@/assets/img.jpg" alt="Jacks of Trades"></div>
 </template>
 <script setup>
 

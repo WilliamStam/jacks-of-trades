@@ -3,7 +3,7 @@
     "version": "0.0.11",
     "scripts": {
         "dev": "vite & npm update",
-        "dist": "vue-tsc --noEmit && vite build && node build/zip.js",
+        "dist": "vue-tsc --noEmit --skipLibCheck && vite build && node build/zip.js",
         "bump": "node build/bump.js",
         "build": "vite build",
         "serve": "vite preview",
